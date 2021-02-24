@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back3">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:padding="12dp"
+       android:layout_marginBottom="40dp">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:padding="5dp"
+           android:background="@drawable/dashback">
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:id="@+id/cadet"
+               android:layout_width="225dp"
+               android:layout_height="225dp"
+               android:src="@drawable/user"
+               xmlns:app="http://schemas.android.com/apk/res-auto"
+               app:civ_border_color="@android:color/transparent"
+               app:civ_border_width="5dp"
+               xmlns:tools="http://schemas.android.com/tools"
+               />
+
+       </LinearLayout>
+
+
+       <TextView
+           android:id="@+id/cadetname"
+           android:layout_width="300dp"
+           android:layout_height="40dp"
+           android:layout_marginTop="10dp"
+           android:background="@android:color/transparent"
+           android:fontFamily="@font/montserrat"
+           android:gravity="center"
+           android:hint="@string/cadetName"
+           android:textColor="#414141"
+           android:textColorHint="#414141"
+           android:textSize="23sp"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/servicenumber"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:background="@android:color/transparent"
+           android:fontFamily="@font/montserrat"
+           android:gravity="center"
+           android:hint="@string/serviceNumber"
+           android:textColor="#414141"
+           android:textColorHint="#414141"
+           android:textSize="17sp" />
+
+       <TextView
+           android:id="@+id/troop"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:background="@android:color/transparent"
+           android:fontFamily="@font/montserrat"
+           android:gravity="center"
+           android:hint="@string/Troop"
+           android:textColor="#414141"
+           android:textColorHint="#414141"
+           android:textSize="17sp" />
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <Button
+            android:id="@+id/performanceBtn"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_box2"
+            android:text="Performance"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <Button
+            android:id="@+id/reportBtn"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_box2"
+            android:text="Report"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
